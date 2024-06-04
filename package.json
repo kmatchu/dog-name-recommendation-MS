@@ -2,10 +2,17 @@
   "name": "dog-name-recommendation-ms",
   "version": "1.0.0",
   "description": "Microservice that responds with a recommended name",
-  "main": "index.js",
+  "main": "reply_dog_name.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon reply_dog_name.mjs"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.2",
+    "nodemon": "^2.0.22"
+  }
 }
